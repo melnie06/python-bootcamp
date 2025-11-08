@@ -1,0 +1,92 @@
+# expense_1 = int(input('expense 1: '))
+# expense_2 = int(input('expense 2: '))
+# expense_3 = int(input('expense 3: '))
+
+# print(expense_1)
+# print(expense_2)
+# print(expense_3)
+
+# total = (expense_1) + (expense_2 ) +(expense_3)
+# print(total)
+
+## ___________________
+# ice = "ice"
+# baby = "Baby"
+
+# print (((ice + ' ') * 3) + baby)
+## ___________________
+
+
+## ___________________string
+
+# name = input('Enter your name: ')
+# print(f'hello {name} welcome to the world!')
+
+## ___________________
+
+## Expense Tracker
+
+# expense_1 = int(input('Let the user enter a number 1: '))
+# expense_2 = int(input('Let the user enter a number 2: '))
+# expense_3 = int(input('Let the user enter a number 3: '))
+
+# print(expense_1)
+# print(expense_2)
+# print(expense_3)
+
+# total = (expense_1) + (expense_2 ) + (expense_3)
+# print(total)
+
+# print(f'{expense_1} + {expense_2} + {expense_3} = {total}')
+
+## ___________________
+
+
+##Price notification template
+# fruit = 'mango'
+# price = 20
+# price_notification = (f"The price of {fruit} is ${price}.")
+# print(price_notification)
+
+# # TODO: Post: Latte ($3.5)
+
+# cofee1 = late
+# price = 3.5
+# price_notification = (f"The price of {cofee1} is ${20}.")
+
+# # TODO: Post: Espresso ($2.75)
+# print(price_notification)
+
+# # TODO: Post: Cappuccino ($4.0)
+# print(price_notification)
+
+## # Ask the cost and pax or count for three separate items = sales tracker
+# item_cost_1 = int(input('Enter Cost 1: ')) 
+# item_count_1 = int(input('Enter Count 1: '))
+# item_cost_2 = int(input('Enter Cost 2: ')) 
+# item_count_2 = int(input('Enter Count 1: '))
+# item_cost_3 = int(input('Enter Cost 3: ')) 
+# item_count_3 = int(input('Enter Cost 3: '))
+# # Calculate the total
+# total = ((item_cost_1 * item_count_1 + (item_cost_2 * item_count_2) + (item_cost_3 * item_count_3)))
+# print(f'Total of all items is {total}')
+##-------
+
+item_cost_1 = int(input('Enter Cost 1: ')) 
+item_count_1 = int(input('Enter Count 1: '))
+total_item1 = item_cost_1 * item_count_1
+
+item_cost_2 = int(input('Enter Cost 2: ')) 
+item_count_2 = int(input('Enter Count 1: '))
+total_item2 = item_cost_2 * item_count_2
+
+item_cost_3 = int(input('Enter Cost 3: ')) 
+item_count_3 = int(input('Enter Cost 3: '))
+total_item3 = item_cost_3 * item_count_3
+
+total = total_item1 + total_item2 + total_item3
+
+print(f'Total of all items is {total}')
+
+
+

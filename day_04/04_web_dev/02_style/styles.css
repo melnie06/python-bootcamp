@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+  color: white;
+  background: black;
+  padding: 2rem;
+}
+h1, h2 {
+  text-decoration: underline;
+}
+a {
+	background: white;
+	color: black;
+}

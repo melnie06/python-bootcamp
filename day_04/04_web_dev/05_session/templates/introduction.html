@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}Introduction{% endblock %}
+
+{% block content %}
+
+<h1>Introduction Page</h1>
+<h2>
+    {% if hour < 12 %}
+    Good morning!
+    {% elif hour < 18 %}
+    Good afternoon!
+    {% else %}
+    Good evening!
+    {% endif %}
+</h2>
+<p>My name is Jeff Jeff!</p>
+
+{% endblock %}

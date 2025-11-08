@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<h1>Your Shopping List</h1>
+
+<form method="POST" action="/shopping/">
+    <input type="text" name="item" placeholder="Enter item..." required>
+    <button type="submit">Add</button>
+</form>
+
+<ul>
+    {% for item in items %}
+    <li>
+        {{ loop.index }}. {{ item }}
+        <form method="POST" action="/shopping/delete/{{loop.index0}}" style="display:inline;">
+            <button class="delete" type="submit">X</button>
+        </form>
+    </li>
+    {% else %}
+    <li><em>No items yet. Add something!</em></li>
+    {% endfor %}
+</ul>
+</body>
+</html>

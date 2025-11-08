@@ -1,0 +1,17 @@
+# # Ask the cost and pax or count for three separate items
+# item_cost_1 = 10  # Let the user enter a number
+# item_count_1 = 20  # Let the user enter a number
+
+# item_cost_2 = 30  # Let the user enter a number
+# item_count_2 = 40  # Let the user enter a number
+
+# item_cost_3 = 50  # Let the user enter a number
+# item_count_3 = 60  # Let the user enter a number
+
+# # Calculate the total
+# total = ((item_cost_1 * item_count_1) + (item_cost_2 * item_count_2) + (item_cost_3 * item_count_3))
+# print(total)
+
+match color_input:
+    case "green"
+    

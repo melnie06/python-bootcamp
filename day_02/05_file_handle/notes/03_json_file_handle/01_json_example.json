@@ -1,0 +1,15 @@
+{
+  "name": "John Doe",
+  "age": 30,
+  "email": "john.doe@example.com",
+  "is_active": true,
+  "favorites": {
+    "color": "blue",
+    "food": "pizza"
+  },
+  "hobbies": [
+    "reading",
+    "cycling",
+    "gaming"
+  ]
+}
