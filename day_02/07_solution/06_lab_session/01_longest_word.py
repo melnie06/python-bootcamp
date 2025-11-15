@@ -3,7 +3,7 @@ def get_longest_word(text):
     for word in text.split():
         if len(word) > len(longest_word):
             longest_word = word
-
+t
     return longest_word
 
 
