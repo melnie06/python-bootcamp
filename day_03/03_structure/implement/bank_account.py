@@ -5,7 +5,7 @@ class NegativeDepositError(ValueError):
 
 
 # class NegativeDeposit(Exception):
-#     pass
+    pass
 class NegativeWithdraw(Exception):
     pass
     

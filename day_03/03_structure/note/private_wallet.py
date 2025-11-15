@@ -15,5 +15,5 @@ class PrivateWallet:
 
 
 budget = PrivateWallet()
-budget.amount += 1000
+budget.amount += 1500
 print("Budget:", budget.amount)

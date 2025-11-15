@@ -1,7 +1,7 @@
 import tkinter
 
-root = tkinter.Tk()
-count = tkinter.IntVar(root, value=0)
+root = tkinter.Tk() #window
+count = tkinter.IntVar(root, value=0) 
 label = tkinter.Label(root, textvariable=count)
 label.pack()
 

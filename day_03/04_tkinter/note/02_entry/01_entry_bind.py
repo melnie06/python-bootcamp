@@ -18,3 +18,4 @@ entry.pack()
 root.bind("<Return>", show_input) #root.bind (key, function_name)
 # root.bind("<space>", show_input)
 root.mainloop()
+
