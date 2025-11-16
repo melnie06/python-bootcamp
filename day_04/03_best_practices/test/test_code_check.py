@@ -28,7 +28,6 @@ def test_is_anagram_edge():
     assert is_anagram("aaa", "aab") == True
     
     
-    
 # # test 2:
 def test_is_anagram_false():
     assert is_anagram ("face", "save") == False
