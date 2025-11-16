@@ -1,0 +1,10 @@
+<h1>Food Page</h1>
+<p>This is my ranking for best food.</p>
+
+<ol>
+    {% for food in foods %}
+    <li>Food {{loop.index}}: {{ food }}</li>
+    {% endfor %}
+</ol>
+
+<a href="/">Go Back</a>

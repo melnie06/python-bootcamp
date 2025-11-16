@@ -10,7 +10,8 @@ def process(number):
 def main():
     inputs = [1, 2, 3]
     with Pool() as pool:
-        outputs = pool.map(process, inputs)
+        pool.map(process, inputs)
+        outputs = pool.map(process, inputs)#
 
 
 if __name__ == '__main__':

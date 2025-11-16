@@ -5,3 +5,4 @@ users: list[UserData] = [
     {"name": "Alice", "email": "alice@example.com"},
     {"name": "Bob", "email": "bob@example.com"},
 ]
+print(users)

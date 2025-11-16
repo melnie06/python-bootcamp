@@ -13,7 +13,7 @@ def index():
 def profile():
     return "Profile Page"
 
-
+#dynamic
 @app.route("/profile/<username>")
 @app.route("/profiles/<username>")
 def profile_dynamic(username):

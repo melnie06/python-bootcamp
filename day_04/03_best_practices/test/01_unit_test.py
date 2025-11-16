@@ -1,6 +1,11 @@
 def square(x):
 	return x * x
+	# if isinstance(x, str):
+	# 	raise TypeError ('str')
 
+
+# def test_square_string():
+#     assert square(2)
 
 def test_square_positive():
 	assert square(2) == 4
